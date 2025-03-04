@@ -134,7 +134,13 @@
 	position: relative;
 	max-width: 1920px;
 	height: 675px;
-	background-image: url('/img/mainswiperimg.png');
+}
+.mainswiperbgdiv{
+	max-width: 1920px;
+	height: 675px;
+	position: absolute;
+	background-size: cover;
+	z-index: -1;
 }
 .slider-menu {
 	height: 100%;
